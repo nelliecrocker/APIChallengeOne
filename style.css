@@ -1,0 +1,116 @@
+.body {
+    background-color:whitesmoke
+    align-content: center;
+    font-family: 'Dosis', sans-serif;
+    }
+
+#header-image {
+    display: flex;
+    margin: 25px auto 25px auto;
+    min-width: 250px;
+    max-width: 1000px;
+
+}
+
+h4 {
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: x-large; 
+    text-transform:none;   
+    
+}
+/* Main button to load cards */
+
+#primary-button{
+    background-color: #ffcb05;
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-size-adjust: auto;
+    padding: 5px 15px 5px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    align-content: center;    
+}
+.container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    
+    
+}
+
+.card {
+    text-align: center;
+    text-transform:capitalize;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #2a75bb;
+    
+}
+
+
+.card-body {
+    background-color: #2a75bb;
+    border: none;
+    border-color: transparent;
+    border-radius: 100px;
+    padding: 15px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-colors {
+    background-color: #ffcb05;
+    font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust: auto;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    width: 75%;
+    margin: 15px auto 25px auto;
+    
+
+}
+
+.navbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    
+}
+
+.container-fluid{
+    justify-content: center !important;
+    background-color: #ffcb05;
+    color: black;
+    text-align: center;
+    
+}
+.navbar-text {
+    vertical-align: 0px;
+}
+
+a:hover {
+    background-color: #2a75bb;
+    color: white;
+}
+
