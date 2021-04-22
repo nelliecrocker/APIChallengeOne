@@ -1,5 +1,5 @@
 .body {
-    background-color:whitesmoke
+    background-color:whitesmoke;
     align-content: center;
     font-family: 'Dosis', sans-serif;
     }
@@ -91,7 +91,7 @@ h4 {
 }
 
 .navbar {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: auto;
@@ -105,12 +105,14 @@ h4 {
     text-align: center;
     
 }
-.navbar-text {
-    vertical-align: 0px;
-}
+
 
 a:hover {
     background-color: #2a75bb;
     color: white;
 }
 
+button:hover {
+    background-color: black;
+    color: white;
+}
